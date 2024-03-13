@@ -1,0 +1,80 @@
+@media (max-width: 768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .Sidebar{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .photo, .Contacts, .Skills, .Soft_Skills{
+        width: 20%;
+    }
+    .Contacts, .Skills, .Soft_Skills{
+        margin-left: 0;
+    }
+    .main_content{
+        width: 100%;
+    }
+    .about_user_PProjects{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .lastCompani, .firstCompani{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+    .compani{
+        width: 45%;
+    }
+    .Education{
+        margin: auto;
+        width: 35%;
+    }
+}
+
+
+@media (max-width: 480px){
+    .Sidebar{
+        padding-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .photo{
+        margin: auto;
+        margin-bottom: 10px;
+        width: 25%;
+    }
+    .Contacts, .Skills, .Soft_Skills{
+        padding-left: 235px;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 45%;
+    }
+    .PProjects{
+        margin: auto;
+    }
+    .about_user{
+        display: none;
+    }
+    .lastCompani{
+        flex-direction: column;
+    }
+    .compani{
+        margin: auto;
+    }
+    .title{
+        text-align: center;
+    }
+    .firstCompani{
+        display: none;
+    }
+
+}
